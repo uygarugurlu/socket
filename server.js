@@ -13,7 +13,7 @@ uygulama.get('/', function (req, res, next) {
     res.sendFile(__dirname + '/index.html');
 });
 
-sunucu.listen(1337);
+sunucu.listen(80);
 
 var aktif = 0;
 var $baglananIP = [];
